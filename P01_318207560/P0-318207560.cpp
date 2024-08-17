@@ -319,19 +319,12 @@ int main()
 		//Recibir eventos del usuario
 		glfwPollEvents();
 
-		float coloresRGB[3][3] = {
-		{1.0f, 0.0f, 0.0f}, // Rojo
-		{0.0f, 1.0f, 0.0f}, // Verde
-		{0.0f, 0.0f, 1.0f}  // Azul
-		};
-
 		//Genera color aleatorio 
 		red = (float)rand() / RAND_MAX;
 		green = (float)rand() / RAND_MAX;
 		blue = (float)rand() / RAND_MAX;
 
 		//Limpiar la ventana
-		glClearColor(red, green, blue, 0.5f);
 		glClearColor(red, green, blue, 0.5f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
