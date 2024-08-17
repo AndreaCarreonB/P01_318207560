@@ -13,7 +13,9 @@ using namespace std;
 const int WIDTH = 800, HEIGHT = 600;
 GLuint VAO, VBO, shader;
 //Declaracion variables flotantes
-float red = 0.0f, green = 0.0f, blue = 0.0f;
+float red = 0.0f;
+float green = 0.0f;
+float blue = 0.0f;
 
 //Vertex Shader
 //recibir color, salida Vcolor
