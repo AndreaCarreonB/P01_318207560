@@ -18,6 +18,7 @@ float green = 0.0f;
 float blue = 0.0f;
 
 //Vertex Shader
+// //si se pudo la prueba
 //recibir color, salida Vcolor
 static const char* vShader = "						\n\
 #version 330										\n\
