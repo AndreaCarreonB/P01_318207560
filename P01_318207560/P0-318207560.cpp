@@ -12,7 +12,7 @@ using namespace std;
 //Dimensiones de la ventana
 const int WIDTH = 800, HEIGHT = 600;
 GLuint VAO, VBO, shader;
-//Declaracion variables flotantes
+//Declaracion variables flotantes   
 float red = 0.0f;
 float green = 0.0f;
 float blue = 0.0f;
